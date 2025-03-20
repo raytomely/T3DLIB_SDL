@@ -1,0 +1,6 @@
+// DEMOII8_7.CPP - Parser demo
+// READ THIS!
+// To compile make sure to include:
+// the C++ source modules T3DLIB1,4,5,6.CPP and the headers T3DLIB1,4,5,6.H
+// in the working directory of the compiler
+// compile as a CONSOLE APPLICATION !!!

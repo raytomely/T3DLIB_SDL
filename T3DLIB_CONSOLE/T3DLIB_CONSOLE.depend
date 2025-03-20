@@ -1,0 +1,215 @@
+# depslib dependency file v1.0
+1741771498 source:c:\c_code\sdl\projects\t3dlib\engine\source_sdl\t3dlib4.cpp
+	"CommonHeader.h"
+	"T3DLIB1.H"
+	"T3DLIB4.H"
+
+1742193229 c:\c_code\sdl\projects\t3dlib_console\\commonheader.h
+	<conio.h>
+	<stdlib.h>
+	<malloc.h>
+	<memory.h>
+	<string.h>
+	<stdarg.h>
+	<stdio.h>
+	<math.h>
+	<io.h>
+	<fcntl.h>
+	<sys/timeb.h>
+	<time.h>
+	<conio.h>
+	<malloc.h>
+	<memory.h>
+	<string.h>
+	<stdarg.h>
+	<stdio.h>
+	<math.h>
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<wchar.h>
+	<limits.h>
+	<float.h>
+	<search.h>
+	<ctype.h>
+
+1737626089 c:\c_code\sdl\projects\t3dlib\engine\interface_sdl\winstub.h
+
+1741771118 c:\c_code\sdl\projects\t3dlib\engine\interface_sdl\t3dlib1.h
+
+1737276825 c:\c_code\sdl\projects\t3dlib\engine\interface_sdl\t3dlib4.h
+
+1741771582 source:c:\c_code\sdl\projects\t3dlib\engine\source_sdl\t3dlib5.cpp
+	"CommonHeader.h"
+	"T3DLIB1.H"
+	"T3DLIB4.H"
+	"T3DLIB5.H"
+
+1737276849 c:\c_code\sdl\projects\t3dlib\engine\interface_sdl\t3dlib5.h
+
+1741771600 source:c:\c_code\sdl\projects\t3dlib\engine\source_sdl\t3dlib6.cpp
+	"CommonHeader.h"
+	"T3DLIB1.H"
+	"T3DLIB4.H"
+	"T3DLIB5.H"
+	"T3DLIB6.H"
+
+1737367259 c:\c_code\sdl\projects\t3dlib\engine\interface_sdl\t3dlib6.h
+
+1742115773 source:c:\c_code\sdl\projects\t3dlib\t3dlib_demo\t3diichap08\demoii8_7.cpp
+	<conio.h>
+	<stdlib.h>
+	<malloc.h>
+	<memory.h>
+	<string.h>
+	<stdarg.h>
+	<stdio.h>
+	<math.h>
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<wchar.h>
+	<limits.h>
+	<float.h>
+	"CommonHeader.h"
+	"T3DLIB1.H"
+	"T3DLIB4.H"
+	"T3DLIB5.H"
+	"T3DLIB6.H"
+
+1742192852 source:c:\c_code\sdl\projects\t3dlib\engine\source_sdl\t3dlib1.cpp
+	"CommonHeader.h"
+	"T3DLIB1.H"
+
+1737449230 source:c:\c_code\sdl\projects\t3dlib\engine\source_sdl\winstub.cpp
+	"winstub.h"
+
+1742115450 source:c:\c_code\sdl\projects\t3dlib_console\util.cpp
+	"CommonHeader.h"
+
+1742193229 c:\c_code\sdl\projects\t3dlib_console\commonheader.h
+	<conio.h>
+	<stdlib.h>
+	<malloc.h>
+	<memory.h>
+	<string.h>
+	<stdarg.h>
+	<stdio.h>
+	<math.h>
+	<io.h>
+	<fcntl.h>
+	<sys/timeb.h>
+	<time.h>
+	<conio.h>
+	<malloc.h>
+	<memory.h>
+	<string.h>
+	<stdarg.h>
+	<stdio.h>
+	<math.h>
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<wchar.h>
+	<limits.h>
+	<float.h>
+	<search.h>
+	<ctype.h>
+
+1741093860 source:c:\c_code\sdl\projects\t3dlib\t3dlib_demo\t3diichap16\demoii16_2.cpp
+	<windows.h>
+	<windowsx.h>
+	<stdio.h>
+	<math.h>
+	<xmmintrin.h>
+
+1742456107 source:c:\c_code\sdl\projects\t3dlib\t3dlib_demo\t3diichap16\demoii16_3.cpp
+	<conio.h>
+	<stdlib.h>
+	<malloc.h>
+	<memory.h>
+	<string.h>
+	<stdarg.h>
+	<stdio.h>
+	<math.h>
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<wchar.h>
+	<limits.h>
+	<float.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	"cpu_info.h"
+
+1742462930 c:\c_code\sdl\projects\t3dlib_console\\cpu_info.h
+	<limits.h>
+	<intrin.h>
+	<stdint.h>
+
+1741689858 source:c:\c_code\sdl\projects\t3dlib\t3dlib_demo\t3diichap05\demoii5_2.cpp
+	<windows.h>
+	<windowsx.h>
+	<mmsystem.h>
+	<objbase.h>
+	<iostream.h>
+	<conio.h>
+	<stdlib.h>
+	<malloc.h>
+	<memory.h>
+	<string.h>
+	<stdarg.h>
+	<stdio.h>
+	<math.h>
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<wchar.h>
+	"CommonHeader.h"
+	"T3DLIB1.H"
+	"T3DLIB4.H"
+
+1741691685 source:c:\c_code\sdl\projects\t3dlib\t3dlib_demo\t3diichap05\demoii5_4.cpp
+	<windows.h>
+	<windowsx.h>
+	<mmsystem.h>
+	<objbase.h>
+	<iostream.h>
+	<conio.h>
+	<stdlib.h>
+	<malloc.h>
+	<memory.h>
+	<string.h>
+	<stdarg.h>
+	<stdio.h>
+	<math.h>
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<wchar.h>
+	"CommonHeader.h"
+	"T3DLIB1.H"
+	"T3DLIB4.H"
+
+1741693085 source:c:\c_code\sdl\projects\t3dlib\t3dlib_demo\t3diichap05\demoii5_6.cpp
+	<windows.h>
+	<windowsx.h>
+	<mmsystem.h>
+	<objbase.h>
+	<iostream.h>
+	<conio.h>
+	<stdlib.h>
+	<malloc.h>
+	<memory.h>
+	<string.h>
+	<stdarg.h>
+	<stdio.h>
+	<math.h>
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<wchar.h>
+	"CommonHeader.h"
+	"T3DLIB1.H"
+	"T3DLIB4.H"
+
