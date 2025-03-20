@@ -1,0 +1,154 @@
+https://fragglet.github.io/dos-help-files/alang.hlp/SHLD.html
+
+  SHLD/SHRD Instruction
+----------------------------------------------------------------------------
+ 
+  Title:    Double-Precision Shift                Flags: O D I T S Z A P C
+            80386/486 Only                               -----------------
+                                                         ?       ± ± ? ± ±
+  Syntax:   SHLD dest,src,count
+            SHRD dest,src,count
+ 
+  See also: .386, SHL, ROL
+ 
+  Description:
+ 
+     SHLD shifts the bits of the second operand into the first operand.
+     The number of bits shifted is specified by the third operand. SHLD
+     shifts the first operand to the left by the number of positions
+     specified in the count. The positions opened by the shift are
+     filled by the most significant bits of the second operand.
+ 
+     SHRD shifts the first operand to the right by the number of
+     positions specified in the count. The positions opened by the
+     shift are filled by the least significant bits of the second
+     operand. The count operand can be either CL or an 8-bit constant.
+     If a shift count larger than 31 is given, it is adjusted by
+     using the remainder (modulo) of a division by 32.
+                    
+----------------------------------------------------------------------------
+https://fragglet.github.io/dos-help-files/qa.hlp/IMUL.html
+
+ IMUL
+----------------------------------------------------------------------------
+ 
+Signed Multiply                                  Flags:  O D I T S Z A P C
+Syntax:  IMUL src                                        -----------------
+                                                         ±       ? ? ? ? ±
+ 
+  Multiplies an implied destination operand by a specified source operand.
+  Both operands are treated as signed numbers. If a single 16-bit operand
+  is given, the implied destination is AX and the product goes into
+  the DX:AX register pair. If a single 8-bit operand is given, the
+  implied destination is AL and the product goes into AX. On the
+  80386, if the operand is EAX, the product goes into the EDX:EAX reg-
+  ister pair. The carry and overflow flags are set if the product is sign
+  extended into DX for 16-bit operands, into AH for 8-bit operands,
+  or into EDX for 32-bit operands.
+ 
+  Two additional syntaxes are available on the 80186-80386 processors. In
+  the two-operand form, a 16-bit register gives one of the factors and
+  serves as the destination for the result; a source constant specifies the
+  other factor. In the three-operand form, the first operand is a 16-bit
+  register where the result will be stored, the second is a 16-bit register
+  or memory operand containing one of the factors, and the third is a con-
+  stant representing the other factor. With both variations, the overflow and
+  carry flags are set if the result is too large to fit into the 16-bit des-
+  tination register. Since the low 16 bits of the product are the same for
+  both signed and unsigned multiplication, these syntaxes can be used for
+  either signed or unsigned numbers.
+
+----------------------------------------------------------------------------
+https://fragglet.github.io/dos-help-files/alang.hlp/REP.html
+
+ REP Instruction
+----------------------------------------------------------------------------
+ 
+  Title:    Repeat String                         Flags: O D I T S Z A P C
+                                                         -----------------
+  Syntax:   REP instruction                                   -none-
+ 
+  See also: MOVS, STOS, INS, OUTS, REPE
+ 
+  Description:
+ 
+     Repeats a string instruction the number of times indicated by CX.
+     First CX is compared to zero; if it equals zero, execution
+     proceeds to the next instruction. Otherwise, CX is decremented, the
+     string instruction is performed, and the loop continues.
+ 
+     REP is used with MOVS and STOS. REP can also be used with INS
+     and OUTS on the 80186-80486 processors. On all processors except
+     the 80386/486, combining a repeat prefix with a segment override
+     may cause errors if an interrupt occurs during a string operation.
+                 
+----------------------------------------------------------------------------
+https://fragglet.github.io/dos-help-files/qa.hlp/STOS.html
+
+ STOS/STOSB/STOSW
+----------------------------------------------------------------------------
+ 
+Store String Data                                Flags:  O D I T S Z A P C
+                                                         -----------------
+Syntax: STOS dest
+        STOSB
+        STOSW
+ 
+  Stores the value in the accumulator to a string. The string to be filled
+  is the destination and must be pointed to by ES:DI (even if an
+  operand is given). For each source element loaded, DI is adjusted
+  according to the size of the operands and the status of the direction
+  flag. DI is increased if the direction flag has been cleared with CLD
+  or decreased if the direction flag has been set with STD.
+ 
+  If the STOS form of the instruction is used, an operand must be
+  provided to indicate the size of the data elements to be processed.
+  No segment override is allowed.  If STOSB (bytes) or STOSW (words) is
+  used, the instruction determines the size of the data elements to be
+  processed and whether the element will be from AL or AX.  No operand is
+  allowed with STOSB or STOSW.
+ 
+  STOS and its variations are often used with the REP prefix.
+  Before the repeated instruction is executed, CX should contain the
+  number of elements to store.
+
+----------------------------------------------------------------------------
+https://www.felixcloutier.com/x86/cwd:cdq:cqo
+
+ CDQ Instruction
+----------------------------------------------------------------------------
+
+  Title:    Convert Word to Doubleword
+            Convert Doubleword to Quadword        Flags: O D I T S Z A P C
+                                                         -----------------
+  Syntax:   CDQ instruction                                   -none-
+
+
+  Description:
+
+     Doubles the size of the operand in register AX, EAX, or RAX (depending on the operand size)
+     by means of sign extension and stores the result in 
+     registers DX:AX, EDX:EAX, or RDX:RAX, respectively.
+     The CWD instruction copies the sign (bit 15) of the value in the AX register
+     into every bit position in the DX register.
+     The CDQ instruction copies the sign (bit 31) of the value in the EAX register
+     into every bit position in the EDX register.
+     The CQO instruction (available in 64-bit mode only) copies the sign (bit 63) of 
+     the value in the RAX register into every bit position in the RDX register.
+     The CWD instruction can be used to produce a doubleword dividend
+     from a word before word division.
+     The CDQ instruction can be used to produce a quadword dividend 
+     from a doubleword before doubleword division.
+     The CQO instruction can be used to produce a double quadword dividend 
+     from a quadword before a quadword division.
+     The CWD and CDQ mnemonics reference the same opcode. 
+     The CWD instruction is intended for use when the operand-size attribute is 16 
+     and the CDQ instruction for when the operand-size attribute is 32.
+     Some assemblers may force the operand size to 16 when CWD is used and to 32 when CDQ is used.
+     Others may treat these mnemonics as synonyms (CWD/CDQ) and use 
+     the current setting of the operand-size attribute to determine the size of 
+     values to be converted, regardless of the mnemonic used.
+     In 64-bit mode, use of the REX.W prefix promotes operation to 64 bits. 
+     The CQO mnemonics reference the same opcode as CWD/CDQ.
+     See the summary chart at the beginning of this section for encoding data and limits.
+	
