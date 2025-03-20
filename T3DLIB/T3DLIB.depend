@@ -1,0 +1,986 @@
+# depslib dependency file v1.0
+1742192852 source:c:\c_code\sdl\projects\t3dlib\engine\source_sdl\t3dlib1.cpp
+	"CommonHeader.h"
+	"T3DLIB1.H"
+
+1741771372 c:\c_code\sdl\projects\t3dlib\engine\interface_sdl\commonheader.h
+	<stdlib.h>
+	<memory.h>
+	<string.h>
+	<stdarg.h>
+	<stdio.h>
+	<math.h>
+	<io.h>
+	<sys/timeb.h>
+	<time.h>
+	<malloc.h>
+	<memory.h>
+	<string.h>
+	<stdarg.h>
+	<stdio.h>
+	<math.h>
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<wchar.h>
+	<limits.h>
+	<float.h>
+	"t3dlib_sdl.h"
+
+1742458962 c:\c_code\sdl\projects\t3dlib\engine\interface_sdl\t3dlib_sdl.h
+	<SDL/SDL.h>
+	<SDL_mixer.h>
+
+1325738639 c:\program files\codeblocks\sdl-1.2.15\include\sdl\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_audio.h"
+	"SDL_cdrom.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_loadso.h"
+	"SDL_mutex.h"
+	"SDL_rwops.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_video.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 c:\program files\codeblocks\sdl-1.2.15\include\sdl\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 c:\program files\codeblocks\sdl-1.2.15\include\sdl\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1326110987 c:\program files\codeblocks\sdl-1.2.15\include\sdl\sdl_config.h
+	"SDL_platform.h"
+	"SDL_config_dreamcast.h"
+	"SDL_config_macos.h"
+	"SDL_config_macosx.h"
+	"SDL_config_symbian.h"
+	"SDL_config_win32.h"
+	"SDL_config_os2.h"
+	"SDL_config_minimal.h"
+
+1325738639 c:\program files\codeblocks\sdl-1.2.15\include\sdl\sdl_platform.h
+
+1326110994 c:\program files\codeblocks\sdl-1.2.15\include\sdl\sdl_config_win32.h
+	"SDL_platform.h"
+
+1326111000 c:\program files\codeblocks\sdl-1.2.15\include\sdl\begin_code.h
+
+1325738639 c:\program files\codeblocks\sdl-1.2.15\include\sdl\close_code.h
+
+1325738639 c:\program files\codeblocks\sdl-1.2.15\include\sdl\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 c:\program files\codeblocks\sdl-1.2.15\include\sdl\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 c:\program files\codeblocks\sdl-1.2.15\include\sdl\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 c:\program files\codeblocks\sdl-1.2.15\include\sdl\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 c:\program files\codeblocks\sdl-1.2.15\include\sdl\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1325738639 c:\program files\codeblocks\sdl-1.2.15\include\sdl\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 c:\program files\codeblocks\sdl-1.2.15\include\sdl\sdl_cdrom.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 c:\program files\codeblocks\sdl-1.2.15\include\sdl\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 c:\program files\codeblocks\sdl-1.2.15\include\sdl\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_active.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_quit.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 c:\program files\codeblocks\sdl-1.2.15\include\sdl\sdl_active.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 c:\program files\codeblocks\sdl-1.2.15\include\sdl\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keysym.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 c:\program files\codeblocks\sdl-1.2.15\include\sdl\sdl_keysym.h
+
+1325738639 c:\program files\codeblocks\sdl-1.2.15\include\sdl\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 c:\program files\codeblocks\sdl-1.2.15\include\sdl\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 c:\program files\codeblocks\sdl-1.2.15\include\sdl\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 c:\program files\codeblocks\sdl-1.2.15\include\sdl\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1325738639 c:\program files\codeblocks\sdl-1.2.15\include\sdl\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 c:\program files\codeblocks\sdl-1.2.15\include\sdl\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 c:\program files\codeblocks\sdl-1.2.15\include\sdl\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325789340 c:\program files\codeblocks\sdl-1.2.15\include\sdl_mixer.h
+	"SDL_types.h"
+	"SDL_rwops.h"
+	"SDL_audio.h"
+	"SDL_endian.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 c:\program files\codeblocks\sdl-1.2.15\include\sdl_types.h
+	"SDL_stdinc.h"
+
+1325738639 c:\program files\codeblocks\sdl-1.2.15\include\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1326110987 c:\program files\codeblocks\sdl-1.2.15\include\sdl_config.h
+	"SDL_platform.h"
+	"SDL_config_dreamcast.h"
+	"SDL_config_macos.h"
+	"SDL_config_macosx.h"
+	"SDL_config_symbian.h"
+	"SDL_config_win32.h"
+	"SDL_config_os2.h"
+	"SDL_config_minimal.h"
+
+1325738639 c:\program files\codeblocks\sdl-1.2.15\include\sdl_platform.h
+
+1326110994 c:\program files\codeblocks\sdl-1.2.15\include\sdl_config_win32.h
+	"SDL_platform.h"
+
+1326111000 c:\program files\codeblocks\sdl-1.2.15\include\begin_code.h
+
+1325738639 c:\program files\codeblocks\sdl-1.2.15\include\close_code.h
+
+1325738639 c:\program files\codeblocks\sdl-1.2.15\include\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 c:\program files\codeblocks\sdl-1.2.15\include\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 c:\program files\codeblocks\sdl-1.2.15\include\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 c:\program files\codeblocks\sdl-1.2.15\include\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 c:\program files\codeblocks\sdl-1.2.15\include\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 c:\program files\codeblocks\sdl-1.2.15\include\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1325738639 c:\program files\codeblocks\sdl-1.2.15\include\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1741771118 c:\c_code\sdl\projects\t3dlib\engine\interface_sdl\t3dlib1.h
+
+1741771772 source:c:\c_code\sdl\projects\t3dlib\engine\source_sdl\t3dlib10.cpp
+	"CommonHeader.h"
+	"T3DLIB1.H"
+	"T3DLIB4.H"
+	"T3DLIB5.H"
+	"T3DLIB6.H"
+	"T3DLIB7.H"
+	"T3DLIB8.H"
+	"T3DLIB9.H"
+	"T3DLIB10.H"
+
+1737276825 c:\c_code\sdl\projects\t3dlib\engine\interface_sdl\t3dlib4.h
+
+1737276849 c:\c_code\sdl\projects\t3dlib\engine\interface_sdl\t3dlib5.h
+
+1737367259 c:\c_code\sdl\projects\t3dlib\engine\interface_sdl\t3dlib6.h
+
+1738745593 c:\c_code\sdl\projects\t3dlib\engine\interface_sdl\t3dlib7.h
+
+1738654260 c:\c_code\sdl\projects\t3dlib\engine\interface_sdl\t3dlib8.h
+
+1738830193 c:\c_code\sdl\projects\t3dlib\engine\interface_sdl\t3dlib9.h
+
+1742372814 c:\c_code\sdl\projects\t3dlib\engine\interface_sdl\t3dlib10.h
+
+1741771813 source:c:\c_code\sdl\projects\t3dlib\engine\source_sdl\t3dlib11.cpp
+	"CommonHeader.h"
+	"T3DLIB1.H"
+	"T3DLIB4.H"
+	"T3DLIB5.H"
+	"T3DLIB6.H"
+	"T3DLIB7.H"
+	"T3DLIB8.H"
+	"T3DLIB9.H"
+	"T3DLIB10.H"
+	"T3DLIB11.H"
+
+1741767347 c:\c_code\sdl\projects\t3dlib\engine\interface_sdl\t3dlib11.h
+
+1741771835 source:c:\c_code\sdl\projects\t3dlib\engine\source_sdl\t3dlib12.cpp
+	"CommonHeader.h"
+	"T3DLIB1.H"
+	"T3DLIB4.H"
+	"T3DLIB5.H"
+	"T3DLIB6.H"
+	"T3DLIB7.H"
+	"T3DLIB8.H"
+	"T3DLIB9.H"
+	"T3DLIB10.H"
+	"T3DLIB11.H"
+	"T3DLIB12.H"
+
+1741767365 c:\c_code\sdl\projects\t3dlib\engine\interface_sdl\t3dlib12.h
+
+1741771889 source:c:\c_code\sdl\projects\t3dlib\engine\source_sdl\t3dlib13.cpp
+	"CommonHeader.h"
+	"T3DLIB1.H"
+	"T3DLIB4.H"
+	"T3DLIB5.H"
+	"T3DLIB6.H"
+	"T3DLIB7.H"
+	"T3DLIB8.H"
+	"T3DLIB9.H"
+	"T3DLIB10.H"
+	"T3DLIB11.H"
+	"T3DLIB12.H"
+	"T3DLIB13.H"
+
+1741767382 c:\c_code\sdl\projects\t3dlib\engine\interface_sdl\t3dlib13.h
+
+1741767773 source:c:\c_code\sdl\projects\t3dlib\engine\source_sdl\t3dlib2.cpp
+
+1741768026 source:c:\c_code\sdl\projects\t3dlib\engine\source_sdl\t3dlib3.cpp
+
+1741771498 source:c:\c_code\sdl\projects\t3dlib\engine\source_sdl\t3dlib4.cpp
+	"CommonHeader.h"
+	"T3DLIB1.H"
+	"T3DLIB4.H"
+
+1741771582 source:c:\c_code\sdl\projects\t3dlib\engine\source_sdl\t3dlib5.cpp
+	"CommonHeader.h"
+	"T3DLIB1.H"
+	"T3DLIB4.H"
+	"T3DLIB5.H"
+
+1741771600 source:c:\c_code\sdl\projects\t3dlib\engine\source_sdl\t3dlib6.cpp
+	"CommonHeader.h"
+	"T3DLIB1.H"
+	"T3DLIB4.H"
+	"T3DLIB5.H"
+	"T3DLIB6.H"
+
+1741771642 source:c:\c_code\sdl\projects\t3dlib\engine\source_sdl\t3dlib7.cpp
+	"CommonHeader.h"
+	"T3DLIB1.H"
+	"T3DLIB4.H"
+	"T3DLIB5.H"
+	"T3DLIB6.H"
+	"T3DLIB7.H"
+
+1741771660 source:c:\c_code\sdl\projects\t3dlib\engine\source_sdl\t3dlib8.cpp
+	"CommonHeader.h"
+	"T3DLIB1.H"
+	"T3DLIB4.H"
+	"T3DLIB5.H"
+	"T3DLIB6.H"
+	"T3DLIB7.H"
+	"T3DLIB8.H"
+
+1741771712 source:c:\c_code\sdl\projects\t3dlib\engine\source_sdl\t3dlib9.cpp
+	"CommonHeader.h"
+	"T3DLIB1.H"
+	"T3DLIB4.H"
+	"T3DLIB5.H"
+	"T3DLIB6.H"
+	"T3DLIB7.H"
+	"T3DLIB8.H"
+	"T3DLIB9.H"
+
+1742461569 source:c:\c_code\sdl\projects\t3dlib\engine\source_sdl\t3dlib_sdl.cpp
+	<SDL/SDL.h>
+	<SDL_mixer.h>
+	<SDL_ttf.h>
+	"t3dlib_sdl.h"
+	"t3dlib1.h"
+
+1325793194 c:\program files\codeblocks\sdl-1.2.15\include\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 c:\program files\codeblocks\sdl-1.2.15\include\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_audio.h"
+	"SDL_cdrom.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_loadso.h"
+	"SDL_mutex.h"
+	"SDL_rwops.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_video.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 c:\program files\codeblocks\sdl-1.2.15\include\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 c:\program files\codeblocks\sdl-1.2.15\include\sdl_cdrom.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 c:\program files\codeblocks\sdl-1.2.15\include\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 c:\program files\codeblocks\sdl-1.2.15\include\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_active.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_quit.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 c:\program files\codeblocks\sdl-1.2.15\include\sdl_active.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 c:\program files\codeblocks\sdl-1.2.15\include\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keysym.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 c:\program files\codeblocks\sdl-1.2.15\include\sdl_keysym.h
+
+1325738639 c:\program files\codeblocks\sdl-1.2.15\include\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 c:\program files\codeblocks\sdl-1.2.15\include\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 c:\program files\codeblocks\sdl-1.2.15\include\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 c:\program files\codeblocks\sdl-1.2.15\include\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1325738639 c:\program files\codeblocks\sdl-1.2.15\include\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 c:\program files\codeblocks\sdl-1.2.15\include\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1742113091 source:c:\c_code\sdl\projects\t3dlib\t3dlib_demo\t3diichap08\demoii8_5_8b.cpp
+	<conio.h>
+	<stdlib.h>
+	<malloc.h>
+	<memory.h>
+	<string.h>
+	<stdarg.h>
+	<stdio.h>
+	<math.h>
+	<io.h>
+	<fcntl.h>
+	"t3dlib_sdl.h"
+	"T3DLIB1.h"
+	"T3DLIB2.h"
+	"T3DLIB3.h"
+	"T3DLIB4.h"
+	"T3DLIB5.h"
+	"T3DLIB6.h"
+
+1741767660 c:\c_code\sdl\projects\t3dlib\engine\interface_sdl\t3dlib2.h
+
+1741767922 c:\c_code\sdl\projects\t3dlib\engine\interface_sdl\t3dlib3.h
+
+1742113902 source:c:\c_code\sdl\projects\t3dlib\t3dlib_demo\t3diichap08\demoii8_6.cpp
+	<conio.h>
+	<stdlib.h>
+	<malloc.h>
+	<memory.h>
+	<string.h>
+	<stdarg.h>
+	<stdio.h>
+	<math.h>
+	<io.h>
+	<fcntl.h>
+	"t3dlib_sdl.h"
+	"T3DLIB1.h"
+	"T3DLIB2.h"
+	"T3DLIB3.h"
+	"T3DLIB4.h"
+	"T3DLIB5.h"
+	"T3DLIB6.h"
+
+1742114933 source:c:\c_code\sdl\projects\t3dlib\t3dlib_demo\t3diichap08\demoii8_6_8b.cpp
+	<conio.h>
+	<stdlib.h>
+	<malloc.h>
+	<memory.h>
+	<string.h>
+	<stdarg.h>
+	<stdio.h>
+	<math.h>
+	<io.h>
+	<fcntl.h>
+	"t3dlib_sdl.h"
+	"T3DLIB1.h"
+	"T3DLIB2.h"
+	"T3DLIB3.h"
+	"T3DLIB4.h"
+	"T3DLIB5.h"
+	"T3DLIB6.h"
+	"T3DLIB7.h"
+
+1742117415 source:c:\c_code\sdl\projects\t3dlib\t3dlib_demo\t3diichap08\demoii8_9.cpp
+	<conio.h>
+	<stdlib.h>
+	<malloc.h>
+	<memory.h>
+	<string.h>
+	<stdarg.h>
+	<stdio.h>
+	<math.h>
+	<io.h>
+	<fcntl.h>
+	"t3dlib_sdl.h"
+	"T3DLIB1.h"
+	"T3DLIB2.h"
+	"T3DLIB3.h"
+	"T3DLIB4.h"
+	"T3DLIB5.h"
+	"T3DLIB6.h"
+
+1738134232 source:c:\c_code\sdl\projects\t3dlib\t3dlib_demo\t3diichap09\demoii9_1.cpp
+	<windows.h>
+	<windowsx.h>
+	<mmsystem.h>
+	<iostream.h>
+	<conio.h>
+	<stdlib.h>
+	<malloc.h>
+	<memory.h>
+	<string.h>
+	<stdarg.h>
+	<stdio.h>
+	<math.h>
+	<io.h>
+	<fcntl.h>
+	<dsound.h>
+	<dmksctrl.h>
+	<dmusici.h>
+	<dmusicc.h>
+	<dmusicf.h>
+	<dinput.h>
+	"t3dlib_sdl.h"
+	"T3DLIB1.h"
+	"T3DLIB2.h"
+	"T3DLIB3.h"
+	"T3DLIB4.h"
+	"T3DLIB5.h"
+	"T3DLIB6.h"
+	"T3DLIB7.h"
+
+1742284456 source:c:\c_code\sdl\projects\t3dlib\t3dlib_demo\t3diichap11\demoii11_1.cpp
+	<conio.h>
+	<stdlib.h>
+	<malloc.h>
+	<memory.h>
+	<string.h>
+	<stdarg.h>
+	<stdio.h>
+	<math.h>
+	<io.h>
+	<fcntl.h>
+	"t3dlib_sdl.h"
+	"T3DLIB1.h"
+	"T3DLIB2.h"
+	"T3DLIB3.h"
+	"T3DLIB4.h"
+	"T3DLIB5.h"
+	"T3DLIB6.h"
+	"T3DLIB7.h"
+	"T3DLIB8.h"
+	"T3DLIB9.h"
+
+1742291351 source:c:\c_code\sdl\projects\t3dlib\t3dlib_demo\t3diichap12\demoii12_5.cpp
+	<conio.h>
+	<stdlib.h>
+	<malloc.h>
+	<memory.h>
+	<string.h>
+	<stdarg.h>
+	<stdio.h>
+	<math.h>
+	<io.h>
+	<fcntl.h>
+	"t3dlib_sdl.h"
+	"T3DLIB1.h"
+	"T3DLIB2.h"
+	"T3DLIB3.h"
+	"T3DLIB4.h"
+	"T3DLIB5.h"
+	"T3DLIB6.h"
+	"T3DLIB7.h"
+	"T3DLIB8.h"
+	"T3DLIB9.h"
+	"T3DLIB10.h"
+
+1742295840 source:c:\c_code\sdl\projects\t3dlib\t3dlib_demo\t3diichap12\demoii12_9.cpp
+	<conio.h>
+	<stdlib.h>
+	<malloc.h>
+	<memory.h>
+	<string.h>
+	<stdarg.h>
+	<stdio.h>
+	<math.h>
+	<io.h>
+	<fcntl.h>
+	"t3dlib_sdl.h"
+	"T3DLIB1.h"
+	"T3DLIB2.h"
+	"T3DLIB3.h"
+	"T3DLIB4.h"
+	"T3DLIB5.h"
+	"T3DLIB6.h"
+	"T3DLIB7.h"
+	"T3DLIB8.h"
+	"T3DLIB9.h"
+	"T3DLIB10.h"
+
+1742296560 source:c:\c_code\sdl\projects\t3dlib\t3dlib_demo\t3diichap12\demoii12_10.cpp
+	<conio.h>
+	<stdlib.h>
+	<malloc.h>
+	<memory.h>
+	<string.h>
+	<stdarg.h>
+	<stdio.h>
+	<math.h>
+	<io.h>
+	<fcntl.h>
+	"t3dlib_sdl.h"
+	"T3DLIB1.h"
+	"T3DLIB2.h"
+	"T3DLIB3.h"
+	"T3DLIB4.h"
+	"T3DLIB5.h"
+	"T3DLIB6.h"
+	"T3DLIB7.h"
+	"T3DLIB8.h"
+	"T3DLIB9.h"
+	"T3DLIB10.h"
+
+1742372104 source:c:\c_code\sdl\projects\t3dlib\t3dlib_demo\t3diichap13\demoii13_1.cpp
+	<conio.h>
+	<stdlib.h>
+	<malloc.h>
+	<memory.h>
+	<string.h>
+	<stdarg.h>
+	<stdio.h>
+	<math.h>
+	<io.h>
+	<fcntl.h>
+	"t3dlib_sdl.h"
+	"T3DLIB1.h"
+	"T3DLIB2.h"
+	"T3DLIB3.h"
+	"T3DLIB4.h"
+	"T3DLIB5.h"
+	"T3DLIB6.h"
+	"T3DLIB7.h"
+	"T3DLIB8.h"
+	"T3DLIB9.h"
+	"T3DLIB10.h"
+	"T3DLIB11.h"
+
+1303161794 c:\c_code\sdl\projects\t3dlib\t3dlib_demo\t3diichap13\demoii13_1res.h
+
+1742375606 source:c:\c_code\sdl\projects\t3dlib\t3dlib_demo\t3diichap13\demoii13_4.cpp
+	<conio.h>
+	<stdlib.h>
+	<malloc.h>
+	<memory.h>
+	<string.h>
+	<stdarg.h>
+	<stdio.h>
+	<math.h>
+	<io.h>
+	<fcntl.h>
+	"t3dlib_sdl.h"
+	"T3DLIB1.h"
+	"T3DLIB2.h"
+	"T3DLIB3.h"
+	"T3DLIB4.h"
+	"T3DLIB5.h"
+	"T3DLIB6.h"
+	"T3DLIB7.h"
+	"T3DLIB8.h"
+	"T3DLIB9.h"
+	"T3DLIB10.h"
+	"T3DLIB11.h"
+
+1742373422 source:c:\c_code\sdl\projects\t3dlib\t3dlib_demo\t3diichap13\demoii13_3.cpp
+	<conio.h>
+	<stdlib.h>
+	<malloc.h>
+	<memory.h>
+	<string.h>
+	<stdarg.h>
+	<stdio.h>
+	<math.h>
+	<io.h>
+	<fcntl.h>
+	"t3dlib_sdl.h"
+	"T3DLIB1.h"
+	"T3DLIB2.h"
+	"T3DLIB3.h"
+	"T3DLIB4.h"
+	"T3DLIB5.h"
+	"T3DLIB6.h"
+	"T3DLIB7.h"
+	"T3DLIB8.h"
+	"T3DLIB9.h"
+	"T3DLIB10.h"
+	"T3DLIB11.h"
+
+1742380000 source:c:\c_code\sdl\projects\t3dlib\t3dlib_demo\t3diichap14\demoii14_3.cpp
+	<conio.h>
+	<stdlib.h>
+	<malloc.h>
+	<memory.h>
+	<string.h>
+	<stdarg.h>
+	<stdio.h>
+	<math.h>
+	<io.h>
+	<fcntl.h>
+	"t3dlib_sdl.h"
+	"T3DLIB1.h"
+	"T3DLIB2.h"
+	"T3DLIB3.h"
+	"T3DLIB4.h"
+	"T3DLIB5.h"
+	"T3DLIB6.h"
+	"T3DLIB7.h"
+	"T3DLIB8.h"
+	"T3DLIB9.h"
+	"T3DLIB10.h"
+	"T3DLIB11.h"
+	"T3DLIB12.h"
+
+1742380787 source:c:\c_code\sdl\projects\t3dlib\t3dlib_demo\t3diichap14\demoii14_4.cpp
+	<conio.h>
+	<stdlib.h>
+	<malloc.h>
+	<memory.h>
+	<string.h>
+	<stdarg.h>
+	<stdio.h>
+	<math.h>
+	<io.h>
+	<fcntl.h>
+	"t3dlib_sdl.h"
+	"T3DLIB1.h"
+	"T3DLIB2.h"
+	"T3DLIB3.h"
+	"T3DLIB4.h"
+	"T3DLIB5.h"
+	"T3DLIB6.h"
+	"T3DLIB7.h"
+	"T3DLIB8.h"
+	"T3DLIB9.h"
+	"T3DLIB10.h"
+	"T3DLIB11.h"
+	"T3DLIB12.h"
+
+1742382136 source:c:\c_code\sdl\projects\t3dlib\t3dlib_demo\t3diichap14\demoii14_5.cpp
+	<conio.h>
+	<stdlib.h>
+	<malloc.h>
+	<memory.h>
+	<string.h>
+	<stdarg.h>
+	<stdio.h>
+	<math.h>
+	<io.h>
+	<fcntl.h>
+	"t3dlib_sdl.h"
+	"T3DLIB1.h"
+	"T3DLIB2.h"
+	"T3DLIB3.h"
+	"T3DLIB4.h"
+	"T3DLIB5.h"
+	"T3DLIB6.h"
+	"T3DLIB7.h"
+	"T3DLIB8.h"
+	"T3DLIB9.h"
+	"T3DLIB10.h"
+	"T3DLIB11.h"
+	"T3DLIB12.h"
+
+1742383985 source:c:\c_code\sdl\projects\t3dlib\t3dlib_demo\t3diichap14\demoii14_6b.cpp
+	<conio.h>
+	<stdlib.h>
+	<malloc.h>
+	<memory.h>
+	<string.h>
+	<stdarg.h>
+	<stdio.h>
+	<math.h>
+	<io.h>
+	<fcntl.h>
+	"t3dlib_sdl.h"
+	"T3DLIB1.h"
+	"T3DLIB2.h"
+	"T3DLIB3.h"
+	"T3DLIB4.h"
+	"T3DLIB5.h"
+	"T3DLIB6.h"
+	"T3DLIB7.h"
+	"T3DLIB8.h"
+	"T3DLIB9.h"
+	"T3DLIB10.h"
+	"T3DLIB11.h"
+	"T3DLIB12.h"
+
+1742385129 source:c:\c_code\sdl\projects\t3dlib\t3dlib_demo\t3diichap15\demoii15_1.cpp
+	<conio.h>
+	<stdlib.h>
+	<malloc.h>
+	<memory.h>
+	<string.h>
+	<stdarg.h>
+	<stdio.h>
+	<math.h>
+	<io.h>
+	<fcntl.h>
+	"t3dlib_sdl.h"
+	"T3DLIB1.h"
+	"T3DLIB2.h"
+	"T3DLIB3.h"
+	"T3DLIB4.h"
+	"T3DLIB5.h"
+	"T3DLIB6.h"
+	"T3DLIB7.h"
+	"T3DLIB8.h"
+	"T3DLIB9.h"
+	"T3DLIB10.h"
+	"T3DLIB11.h"
+	"T3DLIB12.h"
+	"T3DLIB13.h"
+
+1742455079 source:c:\c_code\sdl\projects\t3dlib\t3dlib_demo\t3diichap16\demoii16_1.cpp
+	<conio.h>
+	<stdlib.h>
+	<malloc.h>
+	<memory.h>
+	<string.h>
+	<stdarg.h>
+	<stdio.h>
+	<math.h>
+	<io.h>
+	<fcntl.h>
+	"t3dlib_sdl.h"
+	"T3DLIB1.h"
+	"T3DLIB2.h"
+	"T3DLIB3.h"
+	"T3DLIB4.h"
+	"T3DLIB5.h"
+	"T3DLIB6.h"
+	"T3DLIB7.h"
+	"T3DLIB8.h"
+	"T3DLIB9.h"
+	"T3DLIB10.h"
+	"T3DLIB11.h"
+	"T3DLIB12.h"
+	"T3DLIB13.h"
+
