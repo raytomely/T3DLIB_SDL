@@ -22,5 +22,9 @@
 
 - and finaly read this: 
    https://read.cash/@Geri/software-rendering-is-better-than-directx-or-opengl-6f902fdb
+----
 
-  ----
+## Why you should use T3DLIB ? :
+- if you want to use a 3D software renderer, what better than one with a 
+  full book that teach you how it works from the ground up.
+
