@@ -13,4 +13,14 @@
 ----
 
 ## Why you should use a 3D sofware renderer ? :
-==========================================
+- If you want total control and freedom.
+
+- if you are bored with hardware API (OpenGL, Direct3D), and want to
+  learn how evertthing works behind the scene.
+
+- if you work with systems where there is no support for hardware accelerated 3D (i.e: no OpenGL or Direct3D).
+
+- and finaly read this: 
+   https://read.cash/@Geri/software-rendering-is-better-than-directx-or-opengl-6f902fdb
+
+  ----
